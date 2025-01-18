@@ -21,3 +21,11 @@ export default {
 
     plugins: [forms, typography],
 };
+
+module.exports = {
+    content: ["./src/**/*.{html,js}"],
+    theme: {
+        extend: {},
+    },
+    plugins: [],
+}
